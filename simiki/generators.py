@@ -22,7 +22,7 @@ import yaml
 from jinja2 import (Environment, FileSystemLoader, TemplateError)
 
 from simiki import jinja_exts
-from simiki.compat import is_py2, is_py3
+from simiki.compat import is_py2, is_py3, basestring
 from simiki.parser import MarkupParser
 
 if is_py3:
